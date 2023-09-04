@@ -1,12 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 * {
   margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  background: rgb(2, 0, 36);
+  background: rgb(0,0,0);
+  color: whitesmoke;
 
 
   
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: red;
+ padding: 1rem 10rem;
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+  width: 50%;
+}
+.logo {
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-top: 0;
+  
+ 
+}
+li {
+  font-size: 1.2rem;
 
+}
