@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgb(0,0,0);
+  color: whitesmoke;
+
+
+  
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: red;
+ padding: 1rem 10rem;
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+  width: 50%;
+}
+.logo {
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-top: 0;
+  
+ 
+}
+li {
+  font-size: 1.2rem;
+
+}
+.divider{
+
+ height: 90px;
+ width: 100%;
+
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  
+  width: 100%;
+}
+
+
+ .shows-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: scroll;
+  height: 70vh;
+  margin-top: 2rem;
+  width: 80%;
+  margin: 2rem auto;
+  
+ 
+}
+
+.showall{
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+ 
+
+}
+.img{
+  border-radius: 5px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+} 
+.comment-btn{
+  margin-bottom: 10%;
+  margin-top: 1rem;
+  background: transparent;
+  color: whitesmoke;
+  border-radius: 25px;
+  border: 1px solid grey;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+
